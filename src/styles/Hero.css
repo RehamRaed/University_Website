@@ -1,0 +1,105 @@
+#hero_section {
+  background: linear-gradient(rgba(11, 10, 67, 0.751), rgba(11, 10, 67, 0.751)), 
+              url('../../src/assest/xcqosa40.png') center center no-repeat;
+  background-size: cover; 
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+  
+  
+  .hero-text{
+    text-align: center;
+    color: var(--white-color);
+
+  }
+  #hero_section .title{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 3.2rem;
+    
+
+    font-weight: 700;
+    }
+  
+   .discription{
+    max-width: 700px;
+    text-align: center;
+    margin: 0px auto ;
+}
+.explore-icon {
+  font-size: 1.4rem;     
+  font-weight: 700;   
+  vertical-align: middle;
+}
+
+#hero_section .btn{
+  background-color: var(--white-color) !important;
+   font-weight: 500;
+    border-radius: 50px !important;
+    padding: 10px 30px !important;
+    font-size: 16px;
+    color: rgb(0, 0, 0) !important;
+    border: none;
+    transition: transform 0.3s ease;
+  }
+  
+  #hero_section .btn:hover {
+    transform: scale(1.05); 
+  }
+  
+@media (max-width: 1200px) {
+  .container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+  
+  @media (max-width: 992px) {
+    #hero_section .row {
+        flex-direction: column-reverse;
+    }
+  
+    #hero_section .col_2 {
+        margin-top: 50px;
+        margin-bottom: 230px;
+    }
+    #hero_section .col_1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+      text-align: center; 
+    }
+    #hero_section .btn-wrapper {
+      display: flex;
+      justify-content: center;}
+  }
+  @media (max-width: 850px) {
+    .hero-text h1 {
+      font-size: 40px;
+      padding-left: 30px;
+  padding-right: 30px;
+    }
+    .hero-text p {
+    padding-left: 30px;
+  padding-right: 30px;
+    }
+  }
+  @media (max-width: 650px) {
+    .hero-text h1 {
+      font-size: 30px;
+      max-width: 400px;
+      margin:
+  auto;
+    }
+    .hero-text p {
+      font-size: 14px;
+      margin:
+  15px auto 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+    }
+  }
+ 

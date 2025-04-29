@@ -1,0 +1,19 @@
+#testimonials_section {
+  padding-top: 80px;
+  padding-bottom: 90px;
+}
+
+.text-center h4 {
+  font-size: 15px;
+  color: rgb(60, 60, 233) !important;
+    font-weight: 600;
+}
+
+.text-center h2 {
+  color: rgb(0, 0, 39);
+  font-weight: 700;
+  
+}
+.text-center {
+  margin-bottom: 35px;
+}

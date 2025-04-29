@@ -1,0 +1,84 @@
+.program_section{
+  padding: 150px;
+}
+.text-center h4 {  
+  font-size: 15px;
+  color: rgb(60, 60, 233) !important;
+  font-weight: 600;
+
+}
+
+.text-center h2 {  
+  color: rgb(0, 0, 39);
+  font-weight: 700;
+}
+
+
+
+.image-box {
+  position: relative;
+  height: 370px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+
+}
+
+
+
+.image-box .overlay {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(92, 53, 245, 0.292));
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  transition: bottom 0.5s ease;
+}
+
+.image-box:hover .overlay {
+  bottom: 0;
+}
+
+.overlay .icon {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.5s ease;
+}
+
+.overlay h5 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.5s ease 0.1s;
+}
+
+.image-box:hover .overlay .icon,
+.image-box:hover .overlay h5 {
+  opacity: 1;
+  transform: translateY(0);
+}
+@media (max-width: 1300px) {
+  #program_section {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+@media (max-width: 850px) {
+  #program_section {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
